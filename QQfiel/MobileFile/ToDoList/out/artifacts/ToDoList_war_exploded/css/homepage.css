@@ -1,0 +1,10 @@
+.homepage_welcome{
+    background-color:honeydew;
+    height: 40px;
+    width: 100%;
+}
+.homepage_welcome p{
+    width: 100%;
+    height: 30px;
+    font-size: 14px;
+}

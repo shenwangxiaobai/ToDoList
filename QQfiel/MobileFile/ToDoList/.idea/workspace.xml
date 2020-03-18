@@ -1,0 +1,1596 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="ToDoList" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ac6fc554-4bd8-4a48-bee7-c38b7562ea86" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/ToDoList.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mybatis_3_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/pagehelper_3_4_2_fix.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToDoList.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/WEB-INF/classes/META-INF/ToDoList.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/WEB-INF/classes/com/mjdbsx/dao/DbsxAddDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/WEB-INF/classes/com/mjdbsx/dao/DbsxDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/WEB-INF/classes/com/mjdbsx/dao/JdbcConnection.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/WEB-INF/classes/com/mjdbsx/dao/LoginDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/WEB-INF/classes/com/mjdbsx/dao/RegisterDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/WEB-INF/classes/com/mjdbsx/dao/RootDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/WEB-INF/classes/com/mjdbsx/dao/TagDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/WEB-INF/classes/com/mjdbsx/daoimpl/DbsxAdddaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/WEB-INF/classes/com/mjdbsx/daoimpl/DbsxDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/WEB-INF/classes/com/mjdbsx/daoimpl/JdbcConnectionImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/WEB-INF/classes/com/mjdbsx/daoimpl/LoginDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/WEB-INF/classes/com/mjdbsx/daoimpl/RegisterDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/WEB-INF/classes/com/mjdbsx/daoimpl/RootDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/WEB-INF/classes/com/mjdbsx/daoimpl/TagDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/WEB-INF/classes/com/mjdbsx/delete/HomePage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/WEB-INF/classes/com/mjdbsx/delete/homepage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/WEB-INF/classes/com/mjdbsx/domain/DBSX2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/WEB-INF/classes/com/mjdbsx/domain/Dbsx.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/WEB-INF/classes/com/mjdbsx/domain/Sessioninfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/WEB-INF/classes/com/mjdbsx/domain/Tag.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/WEB-INF/classes/com/mjdbsx/domain/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/WEB-INF/classes/com/mjdbsx/method/layui.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/WEB-INF/classes/com/mjdbsx/method/method.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/WEB-INF/classes/com/mjdbsx/service/DbsxService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/WEB-INF/classes/com/mjdbsx/service/LoginService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/WEB-INF/classes/com/mjdbsx/service/RegisterService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/WEB-INF/classes/com/mjdbsx/service/RootService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/WEB-INF/classes/com/mjdbsx/service/TagService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/WEB-INF/classes/com/mjdbsx/serviceimpl/DbsxServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/WEB-INF/classes/com/mjdbsx/serviceimpl/LoginServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/WEB-INF/classes/com/mjdbsx/serviceimpl/RegisterServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/WEB-INF/classes/com/mjdbsx/serviceimpl/RootServerImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/WEB-INF/classes/com/mjdbsx/serviceimpl/TagServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/WEB-INF/classes/com/mjdbsx/servlet/ChooseDay.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/WEB-INF/classes/com/mjdbsx/servlet/DbsxToken.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/WEB-INF/classes/com/mjdbsx/servlet/EditDbsx.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/WEB-INF/classes/com/mjdbsx/servlet/Edit_date.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/WEB-INF/classes/com/mjdbsx/servlet/HomePage2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/WEB-INF/classes/com/mjdbsx/servlet/Initaial.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/WEB-INF/classes/com/mjdbsx/servlet/Listeerner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/WEB-INF/classes/com/mjdbsx/servlet/LoginServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/WEB-INF/classes/com/mjdbsx/servlet/Quit.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/WEB-INF/classes/com/mjdbsx/servlet/Register.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/WEB-INF/classes/com/mjdbsx/servlet/ResetDbsx.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/WEB-INF/classes/com/mjdbsx/servlet/Root.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/WEB-INF/classes/com/mjdbsx/servlet/TagManage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/WEB-INF/classes/com/mjdbsx/servlet/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/WEB-INF/classes/com/mjdbsx/servlet/adddbsx.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/WEB-INF/classes/com/mjdbsx/servlet/deleteDbsx.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/WEB-INF/classes/com/mjdbsx/servlet/forgetpassword.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/WEB-INF/classes/com/mjdbsx/servlet/today_month.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/WEB-INF/classes/com/mjdbsx/token/encode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/WEB-INF/classes/com/mjdbsx/token/jedis.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/WEB-INF/lib/commons-beanutils.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/WEB-INF/lib/commons-collections-3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/WEB-INF/lib/commons-lang-2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/WEB-INF/lib/commons-logging.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/WEB-INF/lib/commons-pool2-2.8.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/WEB-INF/lib/ezmorph-1.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/WEB-INF/lib/hsweb-authorization-oauth2-client-3.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/WEB-INF/lib/jedis-2.7.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/WEB-INF/lib/jedis-2.9.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/WEB-INF/lib/json-lib-1.1-jdk13.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/WEB-INF/lib/json-lib-2.4-jdk15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/WEB-INF/lib/mysql-connector-java-5.1.30.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/WEB-INF/lib/mysql-connector-java-5.1.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/WEB-INF/lib/mysql-connector-java-8.0.18.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/WEB-INF/lib/mysql-connector5.0-bin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/WEB-INF/lib/org.springframework.beans-3.2.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/WEB-INF/lib/org.springframework.core-3.2.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/WEB-INF/lib/spring-context-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/WEB-INF/lib/spring-security-core-5.2.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/WEB-INF/lib/spring-security-oauth2-1.0.2.release.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/WEB-INF/lib/spring-security-oauth2-2.4.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/WEB-INF/lib/virens-utils-oauth2-1.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/css/homepage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/css/yanse.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/font-awesome/HELP-US-OUT.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/font-awesome/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/font-awesome/less/animated.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/font-awesome/less/bordered-pulled.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/font-awesome/less/core.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/font-awesome/less/fixed-width.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/font-awesome/less/font-awesome.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/font-awesome/less/icons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/font-awesome/less/larger.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/font-awesome/less/list.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/font-awesome/less/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/font-awesome/less/path.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/font-awesome/less/rotated-flipped.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/font-awesome/less/screen-reader.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/font-awesome/less/stacked.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/font-awesome/less/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/font-awesome/scss/_animated.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/font-awesome/scss/_bordered-pulled.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/font-awesome/scss/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/font-awesome/scss/_fixed-width.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/font-awesome/scss/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/font-awesome/scss/_larger.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/font-awesome/scss/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/font-awesome/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/font-awesome/scss/_path.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/font-awesome/scss/_rotated-flipped.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/font-awesome/scss/_screen-reader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/font-awesome/scss/_stacked.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/font-awesome/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/font-awesome/scss/font-awesome.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/img/800089363001.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/img/baitian.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/img/bear.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/img/feature.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/img/h.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/img/heiye.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/img/hh.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/img/hhh.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/img/mo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/img/mo2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/img/mojidaiban.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/img/touming.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/img/yusheng.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/js/daymonth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/js/dbsx.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/js/dbsxedit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/js/editpaasword.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/js/homepage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/js/jquery-3.4.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/js/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/js/register.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/js/root.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/js/tagmanager.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/jsp/adddbsx.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/jsp/calendar.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/jsp/day_month.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/jsp/dbsxedit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/jsp/editpassword.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/jsp/header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/jsp/homepage2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/jsp/initial.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/jsp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/jsp/regist.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/jsp/root.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/jsp/tagmanage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/jsp/tailer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/jsp/test.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/css/layui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/css/layui.mobile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/css/modules/code.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/css/modules/layer/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/css/modules/layer/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/font/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/font/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/font/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/font/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/font/iconfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/images/face/0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/images/face/1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/images/face/10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/images/face/11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/images/face/12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/images/face/13.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/images/face/14.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/images/face/15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/images/face/16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/images/face/17.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/images/face/18.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/images/face/19.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/images/face/2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/images/face/20.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/images/face/21.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/images/face/22.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/images/face/23.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/images/face/24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/images/face/25.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/images/face/26.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/images/face/27.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/images/face/28.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/images/face/29.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/images/face/3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/images/face/30.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/images/face/31.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/images/face/32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/images/face/33.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/images/face/34.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/images/face/35.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/images/face/36.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/images/face/37.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/images/face/38.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/images/face/39.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/images/face/4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/images/face/40.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/images/face/41.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/images/face/42.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/images/face/43.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/images/face/44.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/images/face/45.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/images/face/46.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/images/face/47.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/images/face/48.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/images/face/49.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/images/face/5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/images/face/50.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/images/face/51.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/images/face/52.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/images/face/53.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/images/face/54.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/images/face/55.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/images/face/56.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/images/face/57.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/images/face/58.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/images/face/59.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/images/face/6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/images/face/60.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/images/face/61.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/images/face/62.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/images/face/63.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/images/face/64.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/images/face/65.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/images/face/66.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/images/face/67.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/images/face/68.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/images/face/69.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/images/face/7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/images/face/70.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/images/face/71.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/images/face/8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/images/face/9.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/lay/modules/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/lay/modules/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/lay/modules/colorpicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/lay/modules/element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/lay/modules/flow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/lay/modules/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/lay/modules/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/lay/modules/laydate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/lay/modules/layedit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/lay/modules/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/lay/modules/laypage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/lay/modules/laytpl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/lay/modules/mobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/lay/modules/rate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/lay/modules/slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/lay/modules/table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/lay/modules/transfer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/lay/modules/tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/lay/modules/upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/lay/modules/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/layui.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList/layui/layui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/WEB-INF/classes/META-INF/ToDoList.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/WEB-INF/classes/com/mjdbsx/dao/DbsxAddDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/WEB-INF/classes/com/mjdbsx/dao/DbsxDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/WEB-INF/classes/com/mjdbsx/dao/JdbcConnection.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/WEB-INF/classes/com/mjdbsx/dao/LoginDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/WEB-INF/classes/com/mjdbsx/dao/RegisterDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/WEB-INF/classes/com/mjdbsx/dao/TagDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/WEB-INF/classes/com/mjdbsx/daoimpl/DbsxAdddaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/WEB-INF/classes/com/mjdbsx/daoimpl/DbsxDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/WEB-INF/classes/com/mjdbsx/daoimpl/JdbcConnectionImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/WEB-INF/classes/com/mjdbsx/daoimpl/LoginDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/WEB-INF/classes/com/mjdbsx/daoimpl/TagDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/WEB-INF/classes/com/mjdbsx/domain/Dbsx.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/WEB-INF/classes/com/mjdbsx/domain/Tag.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/WEB-INF/classes/com/mjdbsx/domain/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/WEB-INF/classes/com/mjdbsx/method/method.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/WEB-INF/classes/com/mjdbsx/service/DbsxService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/WEB-INF/classes/com/mjdbsx/service/LoginService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/WEB-INF/classes/com/mjdbsx/service/TagService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/WEB-INF/classes/com/mjdbsx/serviceimpl/DbsxServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/WEB-INF/classes/com/mjdbsx/serviceimpl/LoginServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/WEB-INF/classes/com/mjdbsx/serviceimpl/TagServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/WEB-INF/classes/com/mjdbsx/servlet/DbsxToken.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/WEB-INF/classes/com/mjdbsx/servlet/EditDbsx.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/WEB-INF/classes/com/mjdbsx/servlet/HomePage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/WEB-INF/classes/com/mjdbsx/servlet/Initaial.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/WEB-INF/classes/com/mjdbsx/servlet/LoginServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/WEB-INF/classes/com/mjdbsx/servlet/Register.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/WEB-INF/classes/com/mjdbsx/servlet/adddbsx.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/WEB-INF/classes/com/mjdbsx/servlet/today_month.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/WEB-INF/lib/commons-beanutils.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/WEB-INF/lib/commons-collections-3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/WEB-INF/lib/commons-lang-2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/WEB-INF/lib/commons-logging.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/WEB-INF/lib/ezmorph-1.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/WEB-INF/lib/json-lib-1.1-jdk13.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/WEB-INF/lib/json-lib-2.4-jdk15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/WEB-INF/lib/mysql-connector-java-5.1.30.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/WEB-INF/lib/mysql-connector-java-5.1.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/WEB-INF/lib/mysql-connector-java-8.0.18.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/WEB-INF/lib/mysql-connector5.0-bin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/css/homepage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/img/mojidaiban.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/js/dbsx.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/js/jquery-3.4.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/jsp/adddbsx.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/jsp/day_month.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/jsp/dbsxedit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/jsp/homepage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/jsp/initial.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/jsp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/jsp/regist.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/jsp/tagmanage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ToDoList_war_exploded/jsp/test.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ToDoList/META-INF/ToDoList.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ToDoList/com/mjdbsx/dao/DbsxAddDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ToDoList/com/mjdbsx/dao/DbsxDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ToDoList/com/mjdbsx/dao/JdbcConnection.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ToDoList/com/mjdbsx/dao/LoginDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ToDoList/com/mjdbsx/dao/RegisterDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ToDoList/com/mjdbsx/dao/RootDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ToDoList/com/mjdbsx/dao/TagDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ToDoList/com/mjdbsx/daoimpl/DbsxAdddaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ToDoList/com/mjdbsx/daoimpl/DbsxDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ToDoList/com/mjdbsx/daoimpl/JdbcConnectionImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ToDoList/com/mjdbsx/daoimpl/LoginDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ToDoList/com/mjdbsx/daoimpl/RegisterDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ToDoList/com/mjdbsx/daoimpl/RootDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ToDoList/com/mjdbsx/daoimpl/TagDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ToDoList/com/mjdbsx/delete/HomePage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ToDoList/com/mjdbsx/delete/homepage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ToDoList/com/mjdbsx/domain/DBSX2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ToDoList/com/mjdbsx/domain/Dbsx.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ToDoList/com/mjdbsx/domain/Sessioninfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ToDoList/com/mjdbsx/domain/Tag.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ToDoList/com/mjdbsx/domain/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ToDoList/com/mjdbsx/method/layui.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ToDoList/com/mjdbsx/method/method.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ToDoList/com/mjdbsx/service/DbsxService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ToDoList/com/mjdbsx/service/LoginService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ToDoList/com/mjdbsx/service/RegisterService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ToDoList/com/mjdbsx/service/RootService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ToDoList/com/mjdbsx/service/TagService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ToDoList/com/mjdbsx/serviceimpl/DbsxServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ToDoList/com/mjdbsx/serviceimpl/LoginServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ToDoList/com/mjdbsx/serviceimpl/RegisterServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ToDoList/com/mjdbsx/serviceimpl/RootServerImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ToDoList/com/mjdbsx/serviceimpl/TagServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ToDoList/com/mjdbsx/servlet/ChooseDay.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ToDoList/com/mjdbsx/servlet/DbsxToken.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ToDoList/com/mjdbsx/servlet/EditDbsx.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ToDoList/com/mjdbsx/servlet/Edit_date.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ToDoList/com/mjdbsx/servlet/HomePage2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ToDoList/com/mjdbsx/servlet/Initaial.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ToDoList/com/mjdbsx/servlet/Listeerner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ToDoList/com/mjdbsx/servlet/LoginServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ToDoList/com/mjdbsx/servlet/Quit.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ToDoList/com/mjdbsx/servlet/Register.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ToDoList/com/mjdbsx/servlet/ResetDbsx.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ToDoList/com/mjdbsx/servlet/Root.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ToDoList/com/mjdbsx/servlet/TagManage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ToDoList/com/mjdbsx/servlet/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ToDoList/com/mjdbsx/servlet/adddbsx.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ToDoList/com/mjdbsx/servlet/deleteDbsx.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ToDoList/com/mjdbsx/servlet/forgetpassword.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ToDoList/com/mjdbsx/servlet/today_month.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ToDoList/com/mjdbsx/token/encode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ToDoList/com/mjdbsx/token/jedis.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mjdbsx/dao/DbsxAddDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mjdbsx/dao/DbsxDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mjdbsx/dao/JdbcConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mjdbsx/dao/LoginDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mjdbsx/dao/RegisterDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mjdbsx/dao/RootDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mjdbsx/dao/TagDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mjdbsx/daoimpl/DbsxAdddaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mjdbsx/daoimpl/DbsxDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mjdbsx/daoimpl/JdbcConnectionImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mjdbsx/daoimpl/LoginDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mjdbsx/daoimpl/RegisterDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mjdbsx/daoimpl/RootDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mjdbsx/daoimpl/TagDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mjdbsx/delete/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mjdbsx/delete/homepage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mjdbsx/domain/DBSX2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mjdbsx/domain/Dbsx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mjdbsx/domain/Sessioninfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mjdbsx/domain/Tag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mjdbsx/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mjdbsx/method/layui.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mjdbsx/method/method.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mjdbsx/service/DbsxService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mjdbsx/service/LoginService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mjdbsx/service/RegisterService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mjdbsx/service/RootService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mjdbsx/service/TagService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mjdbsx/serviceimpl/DbsxServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mjdbsx/serviceimpl/LoginServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mjdbsx/serviceimpl/RegisterServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mjdbsx/serviceimpl/RootServerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mjdbsx/serviceimpl/TagServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mjdbsx/servlet/ChooseDay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mjdbsx/servlet/DbsxToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mjdbsx/servlet/EditDbsx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mjdbsx/servlet/Edit_date.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mjdbsx/servlet/HomePage2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mjdbsx/servlet/Initaial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mjdbsx/servlet/Listeerner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mjdbsx/servlet/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mjdbsx/servlet/Quit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mjdbsx/servlet/Register.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mjdbsx/servlet/ResetDbsx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mjdbsx/servlet/Root.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mjdbsx/servlet/TagManage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mjdbsx/servlet/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mjdbsx/servlet/adddbsx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mjdbsx/servlet/deleteDbsx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mjdbsx/servlet/forgetpassword.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mjdbsx/servlet/today_month.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mjdbsx/token/encode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mjdbsx/token/jedis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-beanutils.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-collections-3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-lang-2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-logging.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-pool2-2.8.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/ezmorph-1.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/hsweb-authorization-oauth2-client-3.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/jedis-2.7.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/jedis-2.9.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/json-lib-1.1-jdk13.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/json-lib-2.4-jdk15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-5.1.30.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-5.1.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-8.0.18.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector5.0-bin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/org.springframework.beans-3.2.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/org.springframework.core-3.2.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-context-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-security-core-5.2.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-security-oauth2-1.0.2.release.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-security-oauth2-2.4.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/virens-utils-oauth2-1.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/homepage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/yanse.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/font-awesome/HELP-US-OUT.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/font-awesome/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/font-awesome/less/animated.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/font-awesome/less/bordered-pulled.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/font-awesome/less/core.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/font-awesome/less/fixed-width.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/font-awesome/less/font-awesome.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/font-awesome/less/icons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/font-awesome/less/larger.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/font-awesome/less/list.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/font-awesome/less/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/font-awesome/less/path.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/font-awesome/less/rotated-flipped.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/font-awesome/less/screen-reader.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/font-awesome/less/stacked.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/font-awesome/less/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/font-awesome/scss/_animated.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/font-awesome/scss/_bordered-pulled.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/font-awesome/scss/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/font-awesome/scss/_fixed-width.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/font-awesome/scss/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/font-awesome/scss/_larger.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/font-awesome/scss/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/font-awesome/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/font-awesome/scss/_path.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/font-awesome/scss/_rotated-flipped.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/font-awesome/scss/_screen-reader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/font-awesome/scss/_stacked.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/font-awesome/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/font-awesome/scss/font-awesome.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/800089363001.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/baitian.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/bear.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/feature.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/h.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/heiye.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/hh.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/hhh.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/mo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/mo2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/mojidaiban.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/touming.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/yusheng.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/daymonth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/dbsx.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/dbsxedit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/editpaasword.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/homepage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/jquery-3.4.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/register.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/root.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/tagmanager.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/jsp/adddbsx.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/jsp/calendar.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/jsp/day_month.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/jsp/dbsxedit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/jsp/editpassword.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/jsp/header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/jsp/homepage2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/jsp/initial.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/jsp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/jsp/regist.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/jsp/root.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/jsp/tagmanage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/jsp/tailer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/jsp/test.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/css/layui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/css/layui.mobile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/css/modules/code.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/css/modules/layer/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/css/modules/layer/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/font/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/font/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/font/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/font/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/font/iconfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/images/face/0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/images/face/1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/images/face/10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/images/face/11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/images/face/12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/images/face/13.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/images/face/14.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/images/face/15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/images/face/16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/images/face/17.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/images/face/18.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/images/face/19.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/images/face/2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/images/face/20.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/images/face/21.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/images/face/22.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/images/face/23.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/images/face/24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/images/face/25.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/images/face/26.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/images/face/27.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/images/face/28.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/images/face/29.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/images/face/3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/images/face/30.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/images/face/31.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/images/face/32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/images/face/33.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/images/face/34.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/images/face/35.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/images/face/36.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/images/face/37.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/images/face/38.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/images/face/39.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/images/face/4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/images/face/40.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/images/face/41.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/images/face/42.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/images/face/43.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/images/face/44.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/images/face/45.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/images/face/46.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/images/face/47.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/images/face/48.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/images/face/49.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/images/face/5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/images/face/50.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/images/face/51.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/images/face/52.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/images/face/53.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/images/face/54.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/images/face/55.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/images/face/56.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/images/face/57.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/images/face/58.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/images/face/59.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/images/face/6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/images/face/60.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/images/face/61.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/images/face/62.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/images/face/63.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/images/face/64.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/images/face/65.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/images/face/66.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/images/face/67.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/images/face/68.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/images/face/69.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/images/face/7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/images/face/70.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/images/face/71.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/images/face/8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/images/face/9.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/lay/modules/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/lay/modules/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/lay/modules/colorpicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/lay/modules/element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/lay/modules/flow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/lay/modules/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/lay/modules/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/lay/modules/laydate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/lay/modules/layedit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/lay/modules/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/lay/modules/laypage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/lay/modules/laytpl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/lay/modules/mobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/lay/modules/rate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/lay/modules/slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/lay/modules/table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/lay/modules/transfer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/lay/modules/tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/lay/modules/upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/lay/modules/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/layui.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/layui/layui.js" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="ToDoList" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ToDoList.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3955" />
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="JavaScript File" />
+        <option value="Jsp File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <dirStrings>
+      <dir>E:\QQfiel\MobileFile\ToDoList\src\com\mjdbsx\servlet</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="E:/" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/mjdbsx/servlet/today_month.java" />
+        <option value="$PROJECT_DIR$/src/com/mjdbsx/service/DbsxService.java" />
+        <option value="$PROJECT_DIR$/src/com/mjdbsx/serviceimpl/DbsxServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/mjdbsx/servlet/ResetDbsx.java" />
+        <option value="$PROJECT_DIR$/src/com/mjdbsx/daoimpl/DbsxDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/mjdbsx/domain/Dbsx.java" />
+        <option value="$PROJECT_DIR$/src/com/mjdbsx/servlet/deleteDbsx.java" />
+        <option value="$PROJECT_DIR$/web/css/homepage.css" />
+        <option value="$PROJECT_DIR$/web/jsp/initial.jsp" />
+        <option value="$PROJECT_DIR$/web/jsp/test.jsp" />
+        <option value="$PROJECT_DIR$/web/jsp/adddbsx.jsp" />
+        <option value="$PROJECT_DIR$/src/com/mjdbsx/servlet/LoginServlet.java" />
+        <option value="$PROJECT_DIR$/web/js/homepage2.jsp" />
+        <option value="$PROJECT_DIR$/web/jsp/hhh.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/com/mjdbsx/method/layui" />
+        <option value="$PROJECT_DIR$/web/js/layui.js" />
+        <option value="$PROJECT_DIR$/src/com/mjdbsx/method/layui.java" />
+        <option value="$PROJECT_DIR$/src/com/mjdbsx/domain/DBSX2.java" />
+        <option value="$PROJECT_DIR$/web/jsp/goodList.jsp" />
+        <option value="$PROJECT_DIR$/src/com/mjdbsx/method/fenye.java" />
+        <option value="$PROJECT_DIR$/src/com/mjdbsx/method/pagehelper.java" />
+        <option value="$PROJECT_DIR$/src/com/mjdbsx/dao/DbsxDao.java" />
+        <option value="$PROJECT_DIR$/src/com/mjdbsx/dao/JdbcConnection.java" />
+        <option value="$PROJECT_DIR$/src/com/mjdbsx/daoimpl/JdbcConnectionImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/mjdbsx/dao/RootDao.java" />
+        <option value="$PROJECT_DIR$/src/com/mjdbsx/daoimpl/RootDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/mjdbsx/service/RootService.java" />
+        <option value="$PROJECT_DIR$/src/com/mjdbsx/servlet/Root.java" />
+        <option value="$PROJECT_DIR$/src/com/mjdbsx/serviceimpl/RootServerImpl.java" />
+        <option value="$PROJECT_DIR$/web/js/root.js" />
+        <option value="$PROJECT_DIR$/web/jsp/root.jsp" />
+        <option value="$PROJECT_DIR$/web/js/login.js" />
+        <option value="$PROJECT_DIR$/web/jsp/login.jsp" />
+        <option value="$PROJECT_DIR$/web/css/login.css" />
+        <option value="$PROJECT_DIR$/web/js/register.js" />
+        <option value="$PROJECT_DIR$/web/jsp/regist.jsp" />
+        <option value="$PROJECT_DIR$/web/jsp/editpassword.jsp" />
+        <option value="$PROJECT_DIR$/web/jsp/header.jsp" />
+        <option value="$PROJECT_DIR$/web/js/dbsxedit.js" />
+        <option value="$PROJECT_DIR$/web/jsp/dbsxedit.jsp" />
+        <option value="$PROJECT_DIR$/web/jsp/hhh.html" />
+        <option value="$PROJECT_DIR$/web/jsp/tailer.jsp" />
+        <option value="$PROJECT_DIR$/web/css/yanse.css" />
+        <option value="$PROJECT_DIR$/web/js/daymonth.js" />
+        <option value="$PROJECT_DIR$/web/js/tagmanager.js" />
+        <option value="$PROJECT_DIR$/web/jsp/tagmanage.jsp" />
+        <option value="$PROJECT_DIR$/web/js/homepage.js" />
+        <option value="$PROJECT_DIR$/web/jsp/day_month.jsp" />
+        <option value="$PROJECT_DIR$/web/jsp/homepage2.jsp" />
+        <option value="$PROJECT_DIR$/web/js/editpaasword.js" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-54" />
+    <option name="y" value="18" />
+    <option name="width" value="1944" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <showMembers ProjectPane="false" />
+      <showExcludedFiles Scope="false" ProjectPane="false" />
+      <hideEmptyPackages ProjectPane="false" />
+      <autoscrollToSource ProjectPane="true" />
+      <autoscrollFromSource ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="ToDoList" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="E:\QQfiel\MobileFile\ToDoList" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ToDoList" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ToDoList" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ToDoList" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ToDoList" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ToDoList" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ToolWindowFavorites.ShowToolbar" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="E:/" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\QQfiel\MobileFile\ToDoList\web" />
+      <recent name="E:\QQfiel\MobileFile\ToDoList\web\fonts" />
+      <recent name="E:\QQfiel\MobileFile\ToDoList\web\jsp" />
+      <recent name="E:\QQfiel\MobileFile\ToDoList\web\WEB-INF\lib" />
+      <recent name="E:\QQfiel\MobileFile\ToDoList\web\css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\QQfiel\MobileFile\ToDoList\web\css" />
+      <recent name="E:\QQfiel\MobileFile\ToDoList\web" />
+      <recent name="E:\QQfiel\MobileFile\ToDoList\web\js" />
+      <recent name="E:\QQfiel\MobileFile\ToDoList\web\js\lay\moduales" />
+      <recent name="E:\QQfiel\MobileFile\ToDoList\web\jsp" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="TomeeConfiguration" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_ToDoList" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="60572" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 8.5.50" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.50" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/ToDoList/" />
+      <option name="SHOW_DIALOG_ON_UPDATE" value="false" />
+      <deployment>
+        <artifact name="ToDoList">
+          <settings>
+            <option name="CONTEXT_PATH" value="/ToDoList" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_ToDoList_2" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="60938" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="ToDoList" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",SHOW_LAMBDA" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ac6fc554-4bd8-4a48-bee7-c38b7562ea86" name="Default Changelist" comment="" />
+      <created>1577929985914</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577929985914</updated>
+      <workItem from="1577929991253" duration="3027000" />
+      <workItem from="1577934611756" duration="752000" />
+      <workItem from="1577944697330" duration="1270000" />
+      <workItem from="1578102619648" duration="659000" />
+      <workItem from="1578103405710" duration="1307000" />
+      <workItem from="1578106056134" duration="7456000" />
+      <workItem from="1578122956805" duration="175097000" />
+      <workItem from="1578882153022" duration="40217000" />
+      <workItem from="1578978527741" duration="24652000" />
+      <workItem from="1579011603773" duration="4818000" />
+      <workItem from="1579021735187" duration="130584000" />
+      <workItem from="1579312452853" duration="162502000" />
+      <workItem from="1580356262994" duration="54854000" />
+      <workItem from="1580706100939" duration="1156000" />
+      <workItem from="1580710394663" duration="3196000" />
+      <workItem from="1580723887987" duration="326000" />
+      <workItem from="1580724279371" duration="73942000" />
+      <workItem from="1581391042555" duration="1061000" />
+      <workItem from="1581392864428" duration="770000" />
+      <workItem from="1581393713379" duration="9421000" />
+      <workItem from="1581602026699" duration="523000" />
+      <workItem from="1581603209480" duration="658000" />
+      <workItem from="1581603911908" duration="6388000" />
+      <workItem from="1581645137511" duration="30995000" />
+      <workItem from="1581835595214" duration="23000" />
+      <workItem from="1581835710831" duration="302000" />
+      <workItem from="1581848389059" duration="620000" />
+      <workItem from="1581850721978" duration="2614000" />
+      <workItem from="1581936756251" duration="596000" />
+      <workItem from="1581945168914" duration="595000" />
+      <workItem from="1582176666790" duration="618000" />
+      <workItem from="1582289653176" duration="2278000" />
+      <workItem from="1582460802988" duration="590000" />
+      <workItem from="1582633481823" duration="594000" />
+      <workItem from="1582782204998" duration="1397000" />
+      <workItem from="1583032103338" duration="28936000" />
+      <workItem from="1583075213934" duration="1496000" />
+      <workItem from="1583077234262" duration="6388000" />
+      <workItem from="1583154096401" duration="1311000" />
+      <workItem from="1583250296565" duration="9855000" />
+      <workItem from="1583388680022" duration="1292000" />
+      <workItem from="1583390045623" duration="3158000" />
+      <workItem from="1583399312958" duration="1800000" />
+      <workItem from="1583420256172" duration="4947000" />
+      <workItem from="1583500386881" duration="597000" />
+      <workItem from="1583550297067" duration="18399000" />
+      <workItem from="1583662933173" duration="34043000" />
+      <workItem from="1583750459832" duration="3489000" />
+      <workItem from="1583766746178" duration="2355000" />
+      <workItem from="1583823171966" duration="4524000" />
+      <workItem from="1583849222316" duration="2455000" />
+      <workItem from="1583868699591" duration="26633000" />
+      <workItem from="1583906877696" duration="872000" />
+      <workItem from="1583920565923" duration="615000" />
+      <workItem from="1583923619520" duration="152000" />
+      <workItem from="1583992133680" duration="23361000" />
+      <workItem from="1584153718030" duration="8269000" />
+      <workItem from="1584194177561" duration="18844000" />
+      <workItem from="1584241043997" duration="3981000" />
+      <workItem from="1584245149032" duration="53401000" />
+      <workItem from="1584345522674" duration="5734000" />
+      <workItem from="1584501136669" duration="2270000" />
+      <workItem from="1584509220072" duration="4178000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1019213000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
+    <layout>
+      <window_info id="Designer" order="0" />
+      <window_info id="Image Layers" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info content_ui="combo" id="Project" order="4" sideWeight="0.7704918" visible="true" weight="0.20437956" />
+      <window_info id="Favorites" order="5" sideWeight="0.29508197" weight="0.2652068" />
+      <window_info id="Web" order="6" sideWeight="0.22950819" weight="0.20843472" />
+      <window_info id="Structure" order="7" sideWeight="0.18673219" weight="0.16087309" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49797243" weight="0.3658088" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4987874" weight="0.13970588" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.8969992" visible="true" weight="0.6236162" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49878347" weight="0.3272059" />
+      <window_info anchor="bottom" id="Application Servers" order="7" sideWeight="0.49959448" weight="0.3658088" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49959448" weight="0.5992647" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49878347" weight="0.4227941" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" sideWeight="0.49959448" weight="0.3290441" />
+      <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.10300081" side_tool="true" weight="0.4095941" />
+      <window_info anchor="bottom" id="Spring" order="15" weight="0.3290441" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Maven" order="1" sideWeight="0.5045662" weight="0.05028386" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.2497979" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.075181894" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Database" order="8" sideWeight="0.49543378" weight="0.05433901" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="hello" />
+    <option name="LAST_COMMIT_MESSAGE" value="hello" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ToDoList$Tomcat_8_5_50.ic" NAME="Tomcat 8.5.50 Coverage Results" MODIFIED="1578760369587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/mjdbsx/daoimpl/RootDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="60" column="23" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mjdbsx/service/RootService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mjdbsx/servlet/Root.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="39" column="34" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mjdbsx/serviceimpl/RootServerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-35">
+          <caret line="19" column="138" selection-start-line="19" selection-start-column="138" selection-end-line="19" selection-end-column="138" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+            <element signature="e#464#465#0" expanded="true" />
+            <element signature="e#898#899#0" expanded="true" />
+            <element signature="e#922#923#0" expanded="true" />
+            <element signature="e#971#972#0" expanded="true" />
+            <element signature="e#995#996#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/jquery-3.4.1.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/calendar.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/root.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-586">
+          <caret line="15" column="55" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/test.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-66" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/login.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="96" column="20" selection-start-line="96" selection-start-column="20" selection-end-line="96" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="50" column="3" selection-start-line="50" selection-start-column="3" selection-end-line="50" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/root.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/register.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-581">
+          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/regist.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+          <folding>
+            <element signature="n#style#0;n#div#8;n#div#1;n#div#0;n#form#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#8;n#div#1;n#div#0;n#form#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#a#0;n#div#8;n#div#1;n#div#0;n#form#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#9;n#div#1;n#div#0;n#form#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-559">
+          <caret line="29" column="32" lean-forward="true" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/dbsxedit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="31" column="56" selection-start-line="31" selection-start-column="56" selection-end-line="31" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/fonts/FontAwesome.otf" />
+    <entry file="file://$PROJECT_DIR$/web/css/font-awesome.min.css" />
+    <entry file="file://$PROJECT_DIR$/web/jsp/hhh.html" />
+    <entry file="file://$PROJECT_DIR$/web/font-awesome/css/font-awesome.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-330" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/tailer.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mjdbsx/servlet/ChooseDay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="63" column="76" selection-start-line="63" selection-start-column="65" selection-end-line="63" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mjdbsx/servlet/today_month.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="91" column="25" selection-start-line="91" selection-start-column="15" selection-end-line="91" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/dbsx.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/yanse.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/bootstrap.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/initial.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/tagmanager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="24" column="54" lean-forward="true" selection-start-line="24" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/homepage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5478">
+          <caret line="249" column="51" selection-start-line="249" selection-start-column="48" selection-end-line="249" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/daymonth.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="309" column="32" selection-start-line="309" selection-start-column="32" selection-end-line="309" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/img/800089363001.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/img/baitian.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/img/bear.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/img/feature.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/img/h.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/img/heiye.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/img/hh.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/img/mo.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/img/mo2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/img/mojidaiban.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/img/touming.PNG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/img/yusheng.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/day_month.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="902">
+          <caret line="41" column="25" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/dbsxedit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3080">
+          <caret line="140" selection-start-line="140" selection-end-line="140" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/tagmanage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="51" column="25" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/adddbsx.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/homepage2.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/editpassword.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-24">
+          <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/editpaasword.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ToDoList.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3955" />
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>ToDoList</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web (ToDoList)|Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>ToDoList</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

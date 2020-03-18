@@ -1,0 +1,115 @@
+.hhh {
+    border: 4px solid transparent;
+    border-top-right-radius:20px;
+    border-top-left-radius:20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-clip: padding-box;
+}
+input{
+    border: none;
+    border-bottom: 1px solid #a94442;
+    outline:none;
+    background-color: transparent;
+    border-bottom-right-radius: 10px 50%;
+    border-bottom-left-radius: 10px 50%;
+    transition: background-color 5000s ease-in-out 0s;
+    text-indent: 1em;
+}
+input:focus{
+    color: #c7254e;
+}
+.timer {
+    color: black;
+    opacity: 100%;
+    font-family: "Courier New";
+    color: #262626;
+    font-weight: bold;
+    text-shadow: -1px 0 blue, 0 1px red, 1px 0 gold, 0 -1px white;
+}
+.timertext{
+    color: black;
+    opacity: 100%;
+    font-family: 华文彩云;
+    color: #262626;
+    font-weight: bold;
+    text-shadow: -1px 0 blue, 0 1px red, 1px 0 gold, 0 -1px white;
+}
+.spanfont{
+    color: black;
+    opacity:100%;
+    font-family: 华文彩云;
+    color:#204d74;
+    font-size: 15px;
+    font-weight: bold;
+    user-select: none;
+}
+.forinput{
+    height:25%;
+    opacity:100%;
+    position: relative;
+    border: 0px;
+    background-color: transparent;
+}
+.H_M_S{
+    font-size: 50px;
+    color: #a6e1ec;
+    white-space: nowrap;
+}
+.Top{
+    position: absolute;
+    top: 40%;
+    left: 20%;
+}
+.baitian{
+    background-image: url('../img/hh.jpg');
+    background-size: 100%;
+    overflow:hidden;
+    z-index: -10;
+    background-position:-50px -50px;
+    min-height: 300px;
+    min-width: 500px;"
+}
+.heiye{
+    background-image: url('../img/hhh.jpg');
+    background-size: 100%;
+    overflow:hidden;
+    z-index: -10;
+    background-position:600px 0px;
+    min-height: 300px;
+    min-width: 500px;"
+}
+.moji{
+    height: 60%;
+    background-image: url('../img/mo.jpg');
+    z-index: -1;
+    ackground-position: 0;
+    background-size: 100%;
+    margin-bottom: 0px;
+}
+body{
+    user-select: none;
+}
+#login{
+    text-indent: 0em;
+}
+#register{
+    text-indent: 0em;
+}
+input{
+    border: none;
+    border-bottom: 1px solid #a94442;
+    outline:none;
+    background-color: transparent;
+    border-bottom-right-radius: 10px 50%;
+    border-bottom-left-radius: 10px 50%;
+    transition: background-color 5000s ease-in-out 0s;
+}
+input:focus{
+    color: #c7254e;
+}
+.moji2{
+    background-image: url('../img/mo.jpg');
+    background-size: 100%;
+    z-index: -1;
+}
